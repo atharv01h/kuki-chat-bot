@@ -24,7 +24,7 @@ function App() {
         const question = getRandomQuestion();
         const response = await generateResponse(question, userInfo);
         addMessage({ content: response, sender: 'bot' });
-      }, 50000); // 50 seconds
+      }, 500000); // 50 seconds
     }
   };
 
