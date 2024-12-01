@@ -106,6 +106,7 @@ function App() {
       </div>
 
       <ChatInput onSend={handleSendMessage} />
+      <Footer />
     </div>
   );
 }
