@@ -6,7 +6,7 @@ export function Footer() {
   return (
     <footer className="bg-gray-900 text-white py-4 px-4 border-t border-gray-800">
       <div className="max-w-4xl mx-auto flex items-center justify-between">
-        <p className="text-sm">Created with ❤️ by Atharv Hatwar</p>
+        <p className="text-sm">❤️</p>
         <a
           href="https://www.instagram.com/atharv_hatwar"
           target="_blank"
