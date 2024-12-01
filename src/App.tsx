@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import { ChatMessage } from './components/ChatMessage';
 import { ChatInput } from './components/ChatInput';
+import { Footer } from './components/Footer';
 import { useChatStore } from './store/chatStore';
 import { generateResponse } from './services/gemini';
 import { getRandomQuestion } from './utils/autoQuestions';
